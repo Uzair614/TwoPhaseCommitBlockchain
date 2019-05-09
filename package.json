@@ -1,0 +1,17 @@
+{
+  "name": "ganachescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "run": "ganache-cli -a 10 -e 10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^1.19.0",
+    "solc": "^0.5.8",
+    "web3": "^1.0.0-beta.54"
+  }
+}
